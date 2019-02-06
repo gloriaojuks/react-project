@@ -10,11 +10,26 @@
 </head>
 
 <body>
-	hi
+
   <div id="container"></div>
   <script type="text/babel">
 
+
+class HelloFriends extends React.Component {
+   render() {
+         return <p>Hello, componentized world!</p>;
+    }
+
+}
+
+ReactDOM.render(
+    <HelloFriends/>,
+  document.querySelector("#container")
+);
   </script>
 </body>
+
+
+
 
 </html>
